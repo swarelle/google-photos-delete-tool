@@ -17,7 +17,7 @@ let deleteGooglePhotos = async function(maxItemCount = "ALL_PHOTOS", itemUnit = 
 	    checkboxClass: CHECKBOX_CLASSES[itemUnit], 
 	    languageAgnosticDeleteButton: 'div[data-delete-origin] button',
 	    deleteButton: 'button[aria-label="Delete"]',
-	    confirmationButton: 'button[class="VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ nCP5yc AjY5Oe LQeN7 kDryjd"]',
+	    confirmationButton: 'button[data-mdc-dialog-action="EBS5u"]',
 	}
 	
 	// Time Configuration (in milliseconds)
